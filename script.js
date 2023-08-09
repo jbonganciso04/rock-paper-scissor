@@ -41,8 +41,8 @@ function game() {
 }
 
 while(!gameOver) {
-    console.log("-----------------------------")
     game();
+    console.log("-----------------------------")
     console.log(`User score is ${userScore}`)
     console.log(`computer score is ${computerScore}`)
     console.log("-----------------------------")
