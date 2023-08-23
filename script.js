@@ -61,6 +61,7 @@ function game(choice) {
     if(gameOver) {
         console.log(winningMessage);
         disableButtons(buttons)
+        result__text.textContent = winningMessage;
     } 
 }
 
