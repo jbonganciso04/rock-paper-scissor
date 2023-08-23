@@ -7,10 +7,57 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <div>
+            <h1>Rock-Paper-Scissor</h1>
+        </div>
+    </nav>
+
+    <main>
+        <div class="main__text__div">
+            <h2>Choose your weapon!</h2>
+            <h3>Best of 5</h3>
+        </div>
+
+        <div class="main__choices">
+            <button value="rock" id="rock__btn">Rock</button>
+            <button value="paper" id="paper__btn">Paper</button>
+            <button value="scissor" id="scissor__btn">Scissors</button>
+        </div>
+
+        <div class="main__score__section">
+            <div class="score">
+                <p>Player score</p>
+                <div class="score__box">
+                    <p id="player__score" class="scores">
+                        0
+                    </p>
+                </div>
+            </div>
+
+            <div class="score">
+                <p>Computer score</p>
+                <div class="score__box">
+                    <p id="computer__score" class="scores">
+                        0
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__results__section">
+            <p>Results</p>
+            <div class="result__box">
+                <p id="result__box__text">lorem ipsum dolor asdasd asdas</p>
+            </div>
+        </div>
+
+        <div class="main__reset__section">
+            <button id="reset__btn">Reset</button>
+        </div>
+    </main>
     
-    <button value="rock" id="rock__btn">Rock</button>
-    <button value="paper" id="paper__btn">Paper</button>
-    <button value="scissor" id="scissor__btn">Scissors</button>
+    
     <script src="script.js"></script>
 </body>
 </html>
